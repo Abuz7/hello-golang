@@ -36,7 +36,7 @@ deploy:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: <Docker ID>/hello-golang
+          images: ca38d8eebf67e492f8274f9a92e5090583ef3bd19a9be6628cd15be6a5c1b5ef/hello-golang
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
